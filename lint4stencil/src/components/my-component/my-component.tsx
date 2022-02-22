@@ -1,5 +1,6 @@
-import { Component, Prop, h } from '@stencil/core';
-import { format } from '../../utils/utils';
+// eslint-disable-next-line no-unused-vars
+import {Component, Prop, h} from '@stencil/core';
+import {format} from '../../utils/utils';
 
 @Component({
   tag: 'my-component',
@@ -27,6 +28,6 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return <div>Hello, World! I&apos;m {this.getText()}</div>;
   }
 }
